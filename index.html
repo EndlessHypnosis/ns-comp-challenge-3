@@ -25,49 +25,55 @@
 
       <hr class="aside-hr">
 
+      <div class="aside-main-admin-wrapper">
+
+
         <section class="aside-section-main">
           <p class="aside-main-title">
             Main
           </p>
-          <div class="aside-main-home">
-            <span><i class="icon ion-ios-home-outline"></i>home</span>
+          <div class="aside-main-wrapper">
+            <p><i class="icon ion-ios-home-outline"></i><span>home</span></p>
           </div>
-          <div class="aside-main-jobs">
-            <span><i class="icon ion-ios-briefcase-outline"></i>jobs</span>
+          <div class="aside-main-wrapper">
+            <p><i class="icon ion-ios-briefcase-outline"></i><span>jobs</span></p>
           </div>
-          <div class="aside-main-resumes">
-            <span><i class="icon ion-document"></i>resumes</span>
+          <div class="aside-main-wrapper">
+            <p><i class="icon ion-document"></i><span>resumes</span></p>
           </div>
-          <div class="aside-main-tasks">
-            <span><i class="icon ion-ios-list-outline"></i>tasks</span>
+          <div class="aside-main-wrapper">
+            <p><i class="icon ion-ios-list-outline"></i><span>tasks</span></p>
           </div>
-          <div class="aside-main-calendar">
-            <span><i class="icon ion-android-calendar"></i>calendar</span>
+          <div class="aside-main-wrapper">
+            <p><i class="icon ion-android-calendar"></i><span>calendar</span></p>
           </div>
         </section>
 
-      <hr class="aside-hr">
+      <hr class="aside-hr" id="hr-main-admin">
 
         <section class="aside-section-admin">
           <p class="aside-admin-title">
             Admin
           </p>
-          <div class="aside-admin-users">
-            <span><i class="icon ion-ios-people-outline"></i>users</span>
+          <div class="aside-main-wrapper">
+            <p><i class="icon ion-ios-people-outline"></i><span>users</span></p>
           </div>
-          <div class="aside-admin-locations">
-            <span><i class="icon ion-ios-location-outline"></i>locations</span>
+          <div class="aside-main-wrapper">
+            <p><i class="icon ion-ios-location-outline"></i><span>locations</span></p>
           </div>
-          <div class="aside-admin-workflows">
-            <span><i class="icon ion-network"></i>workflows</span>
+          <div class="aside-main-wrapper">
+            <p><i class="icon ion-network"></i><span>workflows</span></p>
           </div>
-          <div class="aside-admin-jobs">
-            <span><i class="icon ion-clipboard"></i>job boards</span>
+          <div class="aside-main-wrapper">
+            <p><i class="icon ion-clipboard"></i><span>job boards</span></p>
           </div>
-          <div class="aside-admin-social">
-            <span><i class="icon ion-android-share-alt"></i>social</span>
+          <div class="aside-main-wrapper">
+            <p><i class="icon ion-android-share-alt"></i><span>social</span></p>
           </div>
         </section>
+
+
+      </div>
 
       <hr class="aside-hr">
 
@@ -101,7 +107,7 @@
             <i class="icon ion-navicon-round"></i>
           </nav>
           <div class="header-search">
-            <span><i class="icon ion-search"></i>Search for a job, task or resume</span>
+            <span><i class="icon ion-search"></i><input class="input-search" type="text" placeholder="Search for a job or task"></span>
           </div>
           <div class="header-just-icon">
             <i class="icon ion-person-add"></i>
@@ -147,6 +153,7 @@
             <span class="page-tabs">activity</span>
             <span class="page-tabs">broadcast</span>
             <span class="page-tabs">notifications</span>
+            <span class="page-tabs">summary<i class="icon ion-arrow-down-b"></i></span>
           </div>
 
         </section>
@@ -198,6 +205,7 @@
         </section>
 
         <section class="main-section-bot">
+
           <div class="main-bot-left">
             <div class="job-desc-wrapper">
               <div class="job-desc-header">
@@ -211,44 +219,99 @@
                 <hr class="job-hr">
                 <div class="job-entry">
                   <span class="job-entry-title">location</span>
-                  <span class="job-entry-desc">Customer Service Representative</span>
+                  <span class="job-entry-desc">San Francisco, CA</span>
                 </div>
                 <hr class="job-hr">
                 <div class="job-entry">
                   <span class="job-entry-title">employment type</span>
-                  <span class="job-entry-desc">Customer Service Representative</span>
+                  <span class="job-entry-desc">Full-Time</span>
                 </div>
                 <hr class="job-hr">
                 <div class="job-entry">
                   <span class="job-entry-title">experience</span>
-                  <span class="job-entry-desc">Customer Service Representative</span>
+                  <span class="job-entry-desc">Mid-Level</span>
                 </div>
                 <hr class="job-hr">
                 <div class="job-entry">
                   <span class="job-entry-title">status</span>
-                  <span class="job-entry-desc">Customer Service Representative</span>
+                  <span class="job-entry-desc">Open</span>
                 </div>
                 <hr class="job-hr">
                 <div class="job-entry">
                   <span class="job-entry-title">description</span>
-                  <span class="job-entry-desc">Customer Service Representative</span>
+                  <span class="job-entry-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
                 </div>
                 <hr class="job-hr">
                 <div class="job-entry">
                   <span class="job-entry-title">hiring lead</span>
-                  <span class="job-entry-desc">Customer Service Representative</span>
+                  <span class="job-entry-desc job-friend"><img src="images/friend.png" alt="picture of Freddy McFriend"> Freddy McFriend</span>
                 </div>
                 <hr class="job-hr">
                 <div class="job-entry">
                   <span class="job-entry-title">approved salary</span>
-                  <span class="job-entry-desc">Customer Service Representative</span>
+                  <span class="job-entry-desc bolder">$58,000</span>
                 </div>
               </div>
             </div>
           </div>
 
+
           <div class="main-bot-right">
-            Social Links
+
+            <div class="social-wrapper-links">
+              <div class="social-btn social-link-facebook">
+                <p><i class="icon ion-social-facebook"></i><span>Post to Facebook</span></p>
+              </div>
+              <div class="social-btn social-link-twitter">
+                <p><i class="icon ion-social-twitter"></i><span>Tweet this Job</span></p>
+              </div>
+              <div class="social-btn social-link-linkedin">
+                <p><i class="icon ion-social-linkedin"></i><span>Post to LinkedIn</span></p>
+              </div>
+            </div>
+
+            <div class="social-wrapper-widget">
+              <div class="social-widget-top">
+                <i class="icon ion-earth"></i><span>Link to this Job</span>
+              </div>
+              <div class="social-widget-mid">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua deirm.
+              </div>
+              <div class="social-widget-bot">
+                <input class="social-input-text" type="text" value="http://loremipsum.com/elitdo">
+                <input class="social-input-btn" type="button" value="Copy">
+              </div>
+            </div>
+
+            <hr class="aside-hr">
+
+            <div class="social-wrapper-widget">
+              <div class="social-widget-top">
+                <i class="icon ion-beaker"></i><span>Use the Button Widget</span>
+              </div>
+              <div class="social-widget-mid">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua deirm.
+              </div>
+              <div class="social-widget-bot">
+                <input class="social-input-text" type="text" value="<script type='text/javascript'">
+                <input class="social-input-btn" type="button" value="Copy">
+              </div>
+            </div>
+
+            <hr class="aside-hr">
+
+            <div class="social-wrapper-widget">
+              <div class="social-widget-top">
+                <i class="icon ion-paper-airplane"></i><span>Upload Resumes by Email</span>
+              </div>
+              <div class="social-widget-mid">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua deirm.
+              </div>
+              <div class="social-widget-bot">
+                <input class="social-input-text no-button" type="text" value="adipisicing@elit.com">
+              </div>
+            </div>
+
           </div>
         </section>
 
